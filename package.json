@@ -1,7 +1,7 @@
 {
   "name": "tailwindboilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for Tailwind, Vue, and Laravel-mix to create quick designs",
+  "description": "Boilerplate for Tailwind, Vue, Sass, and Laravel-mix to quicky create designs",
   "main": "index.html",
   "devDependencies": {
     "vue-template-compiler": "^2.6.10",
