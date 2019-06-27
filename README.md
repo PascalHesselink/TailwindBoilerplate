@@ -11,7 +11,7 @@ Uses mainly the following packages:
 
 Clone the repository:
 ```
-https://github.com/PascalHesselink/TailwindBoilerplate
+git clone https://github.com/PascalHesselink/TailwindBoilerplate <project_name>
 ```
 
 Install packages:
