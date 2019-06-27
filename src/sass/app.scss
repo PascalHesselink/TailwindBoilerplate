@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply font-sans;
+}
+
+main {
+    @apply bg-gray-200;
+    @apply h-screen;
+    @apply flex;
+    @apply flex-wrap;
+    @apply flex-col;
+    @apply text-center;
+    @apply justify-center;
+    @apply content-center;
+}
+
+main > h1 {
+    @apply text-main-heading;
+}
+
+main > h2 {
+    @apply text-4xl;
+}
