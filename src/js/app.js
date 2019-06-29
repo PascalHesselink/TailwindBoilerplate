@@ -6,7 +6,8 @@ new Vue({
         return {
             message: 'Tailwind Template',
             versionMessage: 'Using Tailwind {version}',
-            version: '1.0.4',
+            dependenciesMessage: 'Vue, Sass & Laravel-Mix',
+            tailwindVersion: '1.0.4',
         };
     },
 });

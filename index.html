@@ -41,7 +41,7 @@
                 </div>
                 <div class="code version-section">
                     <a
-                        href="https://your-url"
+                        href="https://github.com/PascalHesselink/TailwindBoilerplate"
                         class="github-corner"
                         aria-label="View source on GitHub"
                         target="_blank"
@@ -99,8 +99,11 @@
             <main>
                 <h1>{{ message }}</h1>
                 <h2>
-                    {{ versionMessage.replace('{version}', version) }}
+                    {{ versionMessage.replace('{version}', tailwindVersion) }}
                 </h2>
+                <h3>
+                    {{ dependenciesMessage }}
+                </h3>
             </main>
         </div>
         <script src="dist/js/app.js"></script>

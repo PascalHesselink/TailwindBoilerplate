@@ -12568,7 +12568,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     return {
       message: 'Tailwind Template',
       versionMessage: 'Using Tailwind {version}',
-      version: '1.0.4'
+      dependenciesMessage: 'Vue, Sass & Laravel-Mix',
+      tailwindVersion: '1.0.4'
     };
   }
 });
@@ -12593,8 +12594,8 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/pascalh/Desktop/Roulette/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/pascalh/Desktop/Roulette/src/sass/app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! /Users/pascalh/Desktop/TailwindBoilerplate/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/pascalh/Desktop/TailwindBoilerplate/src/sass/app.scss */"./src/sass/app.scss");
 
 
 /***/ })

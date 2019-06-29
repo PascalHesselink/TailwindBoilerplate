@@ -7182,6 +7182,14 @@ video {
   font-size: 90px;
 }
 
+.text-sub-heading {
+  font-size: 40px;
+}
+
+.text-dependencie-heading {
+  font-size: 25px;
+}
+
 .italic {
   font-style: italic;
 }
@@ -7619,7 +7627,11 @@ main > h1 {
 }
 
 main > h2 {
-  font-size: 2.25rem;
+  font-size: 40px;
+}
+
+main > h3 {
+  font-size: 25px;
 }
 
 @media (min-width: 640px) {
@@ -14176,6 +14188,14 @@ main > h2 {
 
   .sm\:text-main-heading {
     font-size: 90px;
+  }
+
+  .sm\:text-sub-heading {
+    font-size: 40px;
+  }
+
+  .sm\:text-dependencie-heading {
+    font-size: 25px;
   }
 
   .sm\:italic {
@@ -21148,6 +21168,14 @@ main > h2 {
     font-size: 90px;
   }
 
+  .md\:text-sub-heading {
+    font-size: 40px;
+  }
+
+  .md\:text-dependencie-heading {
+    font-size: 25px;
+  }
+
   .md\:italic {
     font-style: italic;
   }
@@ -28118,6 +28146,14 @@ main > h2 {
     font-size: 90px;
   }
 
+  .lg\:text-sub-heading {
+    font-size: 40px;
+  }
+
+  .lg\:text-dependencie-heading {
+    font-size: 25px;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -35086,6 +35122,14 @@ main > h2 {
 
   .xl\:text-main-heading {
     font-size: 90px;
+  }
+
+  .xl\:text-sub-heading {
+    font-size: 40px;
+  }
+
+  .xl\:text-dependencie-heading {
+    font-size: 25px;
   }
 
   .xl\:italic {
