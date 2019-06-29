@@ -8,6 +8,6 @@
             "email": "mail@pascalhesselink.nl"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
