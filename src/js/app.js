@@ -4,7 +4,7 @@ new Vue({
     el: '#app',
     data() {
         return {
-            message: 'Tailwind Template',
+            message: 'Tailwind Boilerplate',
             versionMessage: 'Using Tailwind {version}',
             dependenciesMessage: 'Vue, Sass & Laravel-Mix',
             tailwindVersion: '1.0.4',
