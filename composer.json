@@ -1,0 +1,13 @@
+{
+    "name": "pascalh/tailwind-boilerplate",
+    "description": "Boilerplate for Tailwind, Vue, Sass, and Laravel-mix to quicky create designs",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pascal Hesselink",
+            "email": "mail@pascalhesselink.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
