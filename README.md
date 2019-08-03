@@ -9,9 +9,9 @@ Uses mainly the following packages:
 #
 ### Getting started
 
-Clone the repository:
+Create the project using composer:
 ```
-git clone https://github.com/PascalHesselink/TailwindBoilerplate <project_name>
+composer create-project pascalh/tailwind-boilerplate ProjectName
 ```
 
 Install packages:
@@ -22,4 +22,9 @@ npm install
 While developing run:
 ```
 npm run watch
+```
+
+Result (open the index.html in the browser):
+```
+open index.html
 ```
