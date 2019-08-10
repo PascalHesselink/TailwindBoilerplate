@@ -1,13 +1,10 @@
 import Vue from 'vue';
 
+import PlaceholderComponent from './components/Placeholder';
+
 new Vue({
     el: '#app',
-    data() {
-        return {
-            message: 'Tailwind Boilerplate',
-            versionMessage: 'Using Tailwind {version}',
-            dependenciesMessage: 'Vue, Sass & Laravel-Mix',
-            tailwindVersion: '1.0.4',
-        };
+    components: {
+        PlaceholderComponent,
     },
 });

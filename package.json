@@ -4,13 +4,13 @@
   "description": "Boilerplate for Tailwind, Vue, Sass, and Laravel-mix to quicky create designs",
   "main": "index.html",
   "devDependencies": {
-    "vue-template-compiler": "^2.6.10",
     "laravel-mix": "^4.0.16",
     "laravel-mix-purgecss": "^4.1.0",
-    "sass-loader": "^7.1.0",
     "sass": "^1.22.1",
-    "tailwindcss": "^1.0.4",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.1.1",
     "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
     "watch": "^1.0.2"
   },
   "scripts": {
