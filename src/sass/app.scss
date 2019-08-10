@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* purgecss start ignore */
 html, body {
     @apply font-sans;
+    @apply bg-gray-200;
 }
 
 main {
-    @apply bg-gray-200;
     @apply h-screen;
     @apply flex;
     @apply flex-wrap;
@@ -28,3 +29,4 @@ main > h2 {
 main > h3 {
     @apply text-dependencie-heading;
 }
+/* purgecss end ignore */

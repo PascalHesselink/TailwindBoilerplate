@@ -21,3 +21,10 @@ mix.js('src/js/app.js', 'dist/js')
         postCss: [tailwindcss('tailwind.js')],
     })
     .copy('src/img/', 'dist/img/');
+
+if (mix.inProduction()) {
+    mix.purgeCss({
+        extensions: ['js', 'vue'],
+        folders: ['src/js/', 'src/sass/'],
+    });
+}
