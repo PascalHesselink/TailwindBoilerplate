@@ -28,11 +28,6 @@ While developing run:
 npm run watch
 ```
 
-Also, you can use the production watcher to enable PurgeCSS functionality while developing:
-```
-npm run watch-production
-```
-
 Open the ``index.html``
 ```
 open ./dist/index.html

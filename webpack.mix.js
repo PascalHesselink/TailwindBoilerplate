@@ -14,17 +14,14 @@ require('laravel-mix-purgecss');
  |
  */
 
-mix.js('src/js/app.js', 'dist/js')
-    .sass('src/sass/app.scss', 'dist/css')
+mix.setPublicPath('./')
+    .js('src/app.js', 'dist/js')
+    .sass('src/app.scss', 'dist/css')
     .options({
         processCssUrls: false,
-        postCss: [tailwindcss('tailwind.js')],
+        postCss: [tailwindcss('tailwind.config.js')],
     })
-    .copy('src/img/', 'dist/img/');
-
-if (mix.inProduction()) {
-    mix.purgeCss({
-        extensions: ['js', 'vue'],
-        folders: ['src/js/', 'src/sass/'],
-    });
-}
+    .purgeCss({
+        folders: ['dist'],
+    })
+    .version();
