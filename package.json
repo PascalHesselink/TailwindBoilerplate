@@ -1,5 +1,8 @@
 {
   "name": "tailwind-boilerplate",
+  "version": "1.1.0",
+  "description": "Boilerplate for Tailwind, Vue, Sass, and Laravel-mix to quicky create designs",
+  "main": "index.html",
   "devDependencies": {
     "cross-env": "^5.1",
     "laravel-mix": "^4.1.2",
@@ -16,5 +19,17 @@
     "watch": "npm run development -- --watch",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-  }
+  },
+  "keywords": [
+    "Tailwind",
+    "Laravel-Mix",
+    "Watcher",
+    "Vue",
+    "Template",
+    "Scaffold",
+    "Scaffolding",
+    "Boilerplate"
+  ],
+  "author": "Pascal Hesselink",
+  "license": "ISC"
 }
