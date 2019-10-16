@@ -8,17 +8,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Create the project using [composer](https://getcomposer.org)
-```
-composer create-project pascalh/tailwind-boilerplate ProjectName
-```
+[Download](https://github.com/PascalHesselink/TailwindBoilerplate/archive/master.zip) the project and open it in your terminal and code editor!
+
 
 Install the packages via [npm](https://www.npmjs.com/):
 ```
 npm install 
 ```
 
+### Install video
 
+[YouTube](https://www.youtube.com/channel/UCWnjbVAhlRwOCC1q9mpPSZQ) 
+The install video will be coming soon!
 
 ## Start coding
 
@@ -35,7 +36,7 @@ open ./dist/index.html
 
 ## Deployment
 
-Before deploying your project run the following command:
+Before deploying your project run the following command to use PurgeCSS:
 ```
 npm run production
 ```
@@ -48,8 +49,9 @@ npm run production
   - Laravel-Mix (for compiling) [https://laravel.com/docs/5.8/mix]
 
 
-## Authors
+## Credits
 
+* **[Adam Wathan](https://adamwathan.me/)** - *Creating the awesome TailwindCSS*
 * **[Pascal Hesselink](https://pascalhesselink.nl)** - *Setting up this project*
 
 
