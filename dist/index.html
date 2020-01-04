@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Tailwind Project</title>
-        <link href="css/app.css" type="text/css" rel="stylesheet" />
-        <link
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Tailwind Project</title>
+    <link href="css/app.css" type="text/css" rel="stylesheet"/>
+    <link
             rel="shortcut icon"
             href="data:image/x-icon;,"
             type="image/x-icon"
-        />
-    </head>
-    <body class="font-sans bg-gray-200 subpixel-antialiased">
-        <div id="app">
-            <section class="h-screen flex flex-col justify-center">
-                <div class="self-center text-center">
-                    <h1
-                        class="text-5xl tracking-widest text-gray-900 select-none font-semibold mb-6"
-                    >
-                        tailwindcss
-                        <span class="font-light">boilerplate</span>
-                    </h1>
-                    <a
-                        target="_blank"
-                        class="py-2 px-6 border-2 border-gray-900 rounded-lg hover:rounded-lg hover:bg-gray-900 hover:text-white"
-                        style="transition: background-color 0.3s ease-in-out;transition: color 0.2s ease-in-out;"
-                        href="https://github.com/PascalHesselink/TailwindBoilerplate"
-                        >Github</a
-                    >
-                </div>
-            </section>
+    />
+</head>
+<body class="font-sans subpixel-antialiased bg-cover bg-no-repeat relative" style="background-image :url('img/background.svg');">
+<div id="app" class="relative z-50">
+    <section class="h-screen flex flex-col justify-center">
+        <div class="self-center text-center">
+            <h1
+                    class="text-5xl tracking-widest text-white select-none font-semibold mb-6"
+            >
+                tailwindcss
+                <span class="font-light">boilerplate</span>
+            </h1>
+            <a
+                    target="_blank"
+                    class="py-2 px-6 border border-white rounded-lg text-white"
+                    href="https://github.com/PascalHesselink/TailwindBoilerplate"
+            >Github</a
+            >
         </div>
-        <script src="js/app.js"></script>
-    </body>
+    </section>
+</div>
+<div class="fixed inset-0 opacity-50 z-10" style="background-image: linear-gradient(to left,#2c2960,#615d98)"></div>
+<div id="particles" class="fixed inset-0 z-20"></div>
+<script src="js/app.js"></script>
+</body>
 </html>

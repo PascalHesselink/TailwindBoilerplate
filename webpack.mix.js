@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+let mix         = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 
 require('laravel-mix-purgecss');
@@ -14,14 +14,16 @@ require('laravel-mix-purgecss');
  |
  */
 
+mix.copy('src/img', 'dist/img');
+
 mix.setPublicPath('./')
-    .js('src/app.js', 'dist/js')
-    .sass('src/app.scss', 'dist/css')
-    .options({
-        processCssUrls: false,
-        postCss: [tailwindcss('tailwind.config.js')],
-    })
-    .purgeCss({
-        folders: ['dist'],
-    })
-    .version();
+   .js('src/app.js', 'dist/js')
+   .sass('src/app.scss', 'dist/css')
+   .options({
+       processCssUrls : false,
+       postCss        : [tailwindcss('tailwind.config.js')]
+   })
+   .purgeCss({
+       folders : ['dist']
+   })
+   .version();
