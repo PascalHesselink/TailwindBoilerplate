@@ -16,10 +16,6 @@ Install the packages via [npm](https://www.npmjs.com/):
 npm install 
 ```
 
-### Install video
-
-[YouTube](https://www.youtube.com/channel/UCWnjbVAhlRwOCC1q9mpPSZQ) 
-The install video will be coming soon!
 
 ## Start coding
 

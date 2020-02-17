@@ -8,12 +8,12 @@
     "laravel-mix": "^4.1.2",
     "laravel-mix-purgecss": "^4.1.0",
     "lodash": "^4.17.5",
-    "resolve-url-loader": "^3.1.0",
-    "sass": "^1.22.5",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.25.0",
     "sass-loader": "^7.1.0",
-    "tailwindcss": "^1.1.2",
-    "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   },
   "scripts": {
     "watch": "npm run development -- --watch",
