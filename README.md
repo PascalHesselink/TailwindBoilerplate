@@ -1,6 +1,6 @@
 # Tailwind Boilerplate
 
-Boilerplate for Tailwind, Vue, Sass, and Laravel-mix to quicky create designs
+Boilerplate for Tailwind, Vue, Sass, and PostCSS to quickly create designs
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ npm install
 
 While developing run:
 ```
-npm run watch
+npm run serve
 ```
 
 Open the ``index.html``
@@ -32,9 +32,9 @@ open ./dist/index.html
 
 ## Deployment
 
-Before deploying your project run the following command to use PurgeCSS:
+Before deploying your project run the following command:
 ```
-npm run production
+npm run build
 ```
 
 ## Built Mainly With
@@ -42,7 +42,6 @@ npm run production
   - TailwindCSS [https://tailwindcss.com]
   - VueJS [https://vuejs.org/]
   - SASS [https://sass-lang.com/]
-  - Laravel-Mix (for compiling) [https://laravel.com/docs/5.8/mix]
 
 
 ## Credits
