@@ -1,55 +1,7 @@
-# Tailwind Boilerplate
+# Vue 3 + Vite
 
-Boilerplate for Tailwind, Vue, Sass, and PostCSS to quickly create designs
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Getting Started
+## Recommended IDE Setup
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Installing
-
-[Download](https://github.com/PascalHesselink/TailwindBoilerplate/archive/master.zip) the project and open it in your terminal and code editor!
-
-
-Install the packages via [npm](https://www.npmjs.com/):
-```
-npm install 
-```
-
-
-## Start coding
-
-
-While developing run:
-```
-npm run serve
-```
-
-Open the ``index.html``
-```
-open ./dist/index.html
-```
-
-## Deployment
-
-Before deploying your project run the following command:
-```
-npm run build
-```
-
-## Built Mainly With
-
-  - TailwindCSS [https://tailwindcss.com]
-  - VueJS [https://vuejs.org/]
-  - SASS [https://sass-lang.com/]
-
-
-## Credits
-
-* **[Adam Wathan](https://adamwathan.me/)** - *Creating the awesome TailwindCSS*
-* **[Pascal Hesselink](https://pascalhesselink.nl)** - *Setting up this project*
-
-
-## License
-
-This project is licensed under the MIT License
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
